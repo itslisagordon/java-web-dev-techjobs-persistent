@@ -1,4 +1,8 @@
 ## Part 1: Test it with SQL
+id: int
+employer: String
+name: String
+skills: String
 
 ## Part 2: Test it with SQL
 
