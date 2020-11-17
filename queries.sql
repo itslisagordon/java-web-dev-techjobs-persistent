@@ -5,6 +5,9 @@ name: String
 skills: String
 
 ## Part 2: Test it with SQL
+SELECT *
+FROM EMPLOYERS
+WHERE location = "St. Louis City"
 
 ## Part 3: Test it with SQL
 
