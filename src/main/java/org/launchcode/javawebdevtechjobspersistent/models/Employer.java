@@ -22,7 +22,7 @@ public class Employer extends AbstractEntity {
     public Employer() {
     }
 
-    public Employer(@NotNull(message = "Location required.") @Size(min = 3, max = 100, message = "Location must be between 3 and 100 characters long.") String location) {
+    public Employer(String location) {
         this.location = location;
     }
 
